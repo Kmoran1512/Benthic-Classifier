@@ -1,0 +1,17 @@
+# Ignoring images and text files
+
+**/*.jpg
+**/*.txt
+**/*.xml
+
+# Ignoring ultralytics runs
+
+ultralytics/*
+
+# Ignoring datasets (these are too large, these should be installed yourself)
+
+datasets/*
+
+# Ignoring hidden files
+
+.ipynb_checkpoints
