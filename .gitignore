@@ -4,9 +4,11 @@
 **/*.txt
 **/*.xml
 
-# Ignoring ultralytics runs
+# Ignoring runs
 
 ultralytics/*
+torch/*
+runs/*
 
 # Ignoring datasets (these are too large, these should be installed yourself)
 
