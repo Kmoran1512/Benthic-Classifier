@@ -3,6 +3,7 @@
 **/*.jpg
 **/*.txt
 **/*.xml
+**/*.tif
 
 # Ignoring runs
 
@@ -17,3 +18,12 @@ datasets/*
 # Ignoring hidden files
 
 .ipynb_checkpoints
+
+# Ignore artifacts
+
+__pycache__
+**.cache
+
+# Ignore pretrained weights
+
+*.pt

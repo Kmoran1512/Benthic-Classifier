@@ -1,0 +1,31 @@
+names:
+- Annelid
+- Arthrapod
+- Arthrapod_-
+- Ascidiacea
+- Asteroid
+- Bryozoan - Cniberian
+- Cnidaria
+- Cnidaria_-
+- Crinoid
+- Ctenophore
+- Echinoid
+- Fish
+- Holothuroid
+- Holothuroid_-
+- Mollusc
+- Ophiuroid
+- Porifera
+- Porifera_-
+- Pycnogonid
+- Unsure
+nc: 20
+roboflow:
+  license: MIT
+  project: benthic-detection
+  url: https://universe.roboflow.com/uncw-marine-labelling/benthic-detection/dataset/2
+  version: 2
+  workspace: uncw-marine-labelling
+test: ../test/images
+train: ../train/images
+val: ../valid/images
